@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #cabec5;
+    margin: 0;
+}
+
+.timer-display {
+    font-size: 5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #dd75de;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #d8e9bc;
+}
+
+.laps {
+    list-style: none; /* Hide the default list-style */
+    padding: 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+.laps li {
+    background: #afcfbf; /* Dark background */
+    border: 2px solid #ddd; /* Light border */
+    padding: 2px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    text-align: center;
+    color: #0a0a0a; /* Bright green text color */
+    width: 200px; /* Medium size width */
+    height: 200px; /* Medium size height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto; /* Center horizontally and add space between circles */
+}
+
+/* Add a hover effect for better user interaction */
+.laps li:hover {
+    background: #4372c8; 
+    border-color: #a5d6a7; 
+    color: #a5d6a7;
+
